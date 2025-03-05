@@ -30,7 +30,7 @@ $script = {
     }
 
     try {
-        $extensions = 'cjpalhdlnbpafiamejdnhcphjbkeiagm','eimadpbcbfnmbkopoojfekhnkhdbieeh'
+        $extensions = 'cjpalhdlnbpafiamejdnhcphjbkeiagm','eimadpbcbfnmbkopoojfekhnkhdbieeh','ddkjiahejlhfcafbddmgiahcphecmpfh'
         $extensions | %{ Set-ChromeExtension -ExtensionID $_ }
 
         Set-RegistryValue -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion/Themes/Personalize" -Name SystemUsesLightTheme -Value 0
